@@ -27,6 +27,19 @@ detection_models = {
 }
 
 # recognizer parameters
+"""
+latin_lang_list: 包含拉丁字母（Latin script）书写系统的语言代码列表。这些语言使用拉丁字母作为其书写系统，如英语、法语、德语等。
+
+arabic_lang_list: 包含阿拉伯字母（Arabic script）书写系统的语言代码列表。这些语言使用阿拉伯字母作为其书写系统，如阿拉伯语、波斯语、乌尔都语等。
+
+bengali_lang_list: 包含孟加拉字母（Bengali script）书写系统的语言代码列表。这些语言使用孟加拉字母作为其书写系统，如孟加拉语等。
+
+cyrillic_lang_list: 包含西里尔字母（Cyrillic script）书写系统的语言代码列表。这些语言使用西里尔字母作为其书写系统，如俄语、乌克兰语、保加利亚语等。
+
+devanagari_lang_list: 包含天城体字母（Devanagari script）书写系统的语言代码列表。这些语言使用天城体字母作为其书写系统，如印地语、尼泊尔语等。
+
+other_lang_list: 包含其他脚本或书写系统的语言代码列表，如泰语、简体中文、繁体中文、日语、韩语等
+"""
 latin_lang_list = ['af','az','bs','cs','cy','da','de','en','es','et','fr','ga',\
                    'hr','hu','id','is','it','ku','la','lt','lv','mi','ms','mt',\
                    'nl','no','oc','pi','pl','pt','ro','rs_latin','sk','sl','sq',\
